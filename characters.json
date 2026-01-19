@@ -1,0 +1,6 @@
+{
+  "characters": [
+    { "id": 1, "name": "Kasumi", "fighting_style": "Mugen Tenshin Ninja Arts", "stats": { "power": 6, "speed": 9, "range": 5, "difficulty": 4 } },
+    { "id": 2, "name": "Ayane", "fighting_style": "Mugen Tenshin Ninja Arts", "stats": { "power": 6, "speed": 9, "range": 6, "difficulty": 6 } }
+  ]
+}
