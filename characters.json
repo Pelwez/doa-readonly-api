@@ -1,26 +1,193 @@
 {
   "characters": [
-    { "id": 1, "name": "Kasumi", "fighting_style": "Mugen Tenshin Ninja Arts", "stats": { "power": 6, "speed": 9, "range": 5, "difficulty": 4 } },
-    { "id": 2, "name": "Ayane", "fighting_style": "Mugen Tenshin Ninja Arts", "stats": { "power": 6, "speed": 9, "range": 6, "difficulty": 6 } },
-    { "id": 3, "name": "Hayate", "fighting_style": "Mugen Tenshin Ninja Arts", "stats": { "power": 7, "speed": 8, "range": 6, "difficulty": 5 } },
-    { "id": 4, "name": "Ryu Hayabusa", "fighting_style": "Hayabusa Ninja Arts", "stats": { "power": 8, "speed": 7, "range": 6, "difficulty": 7 } },
-    { "id": 5, "name": "Helena Douglas", "fighting_style": "Bajiquan", "stats": { "power": 7, "speed": 6, "range": 7, "difficulty": 6 } },
-    { "id": 6, "name": "Hitomi", "fighting_style": "Karate", "stats": { "power": 8, "speed": 6, "range": 5, "difficulty": 4 } },
-    { "id": 7, "name": "Leifang", "fighting_style": "Tai Chi Quan", "stats": { "power": 5, "speed": 7, "range": 6, "difficulty": 6 } },
-    { "id": 8, "name": "Tina Armstrong", "fighting_style": "Pro Wrestling", "stats": { "power": 9, "speed": 5, "range": 6, "difficulty": 5 } },
-    { "id": 9, "name": "Bass Armstrong", "fighting_style": "Pro Wrestling", "stats": { "power": 10, "speed": 3, "range": 6, "difficulty": 7 } },
-    { "id": 10, "name": "Zack", "fighting_style": "Muay Thai", "stats": { "power": 6, "speed": 7, "range": 5, "difficulty": 5 } },
-    { "id": 11, "name": "Brad Wong", "fighting_style": "Drunken Fist", "stats": { "power": 6, "speed": 6, "range": 5, "difficulty": 8 } },
-    { "id": 12, "name": "Eliot", "fighting_style": "Xing Yi Quan", "stats": { "power": 6, "speed": 6, "range": 5, "difficulty": 4 } },
-    { "id": 13, "name": "Kokoro", "fighting_style": "Bajiquan", "stats": { "power": 6, "speed": 6, "range": 6, "difficulty": 5 } },
-    { "id": 14, "name": "La Mariposa", "fighting_style": "Lucha Libre", "stats": { "power": 7, "speed": 7, "range": 6, "difficulty": 6 } },
-    { "id": 15, "name": "Bayman", "fighting_style": "Sambo", "stats": { "power": 8, "speed": 4, "range": 5, "difficulty": 7 } },
-    { "id": 16, "name": "Christie", "fighting_style": "Snake Fist Kung Fu", "stats": { "power": 6, "speed": 8, "range": 6, "difficulty": 6 } },
-    { "id": 17, "name": "Jann Lee", "fighting_style": "Jeet Kune Do", "stats": { "power": 9, "speed": 6, "range": 5, "difficulty": 5 } },
-    { "id": 18, "name": "Rig", "fighting_style": "Taekwondo", "stats": { "power": 7, "speed": 7, "range": 6, "difficulty": 6 } },
-    { "id": 19, "name": "Mila", "fighting_style": "MMA", "stats": { "power": 8, "speed": 6, "range": 5, "difficulty": 6 } },
-    { "id": 24, "name": "Marie Rose", "fighting_style": "Systema", "stats": { "power": 5, "speed": 9, "range": 4, "difficulty": 5 } },
-    { "id": 26, "name": "Nyotengu", "fighting_style": "Tengu Arts", "stats": { "power": 8, "speed": 6, "range": 7, "difficulty": 6 } },
-    { "id": 27, "name": "Honoka", "fighting_style": "Mimic", "stats": { "power": 7, "speed": 6, "range": 6, "difficulty": 8 } }
+    {
+      "id": 1,
+      "name": "Kasumi",
+      "fighting_style": "Mugen Tenshin Ninja Arts",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/kasumi.png",
+      "stats": { "power": 6, "speed": 9, "range": 5, "difficulty": 4 }
+    },
+    {
+      "id": 2,
+      "name": "Ayane",
+      "fighting_style": "Mugen Tenshin Ninja Arts",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/ayane.png",
+      "stats": { "power": 6, "speed": 9, "range": 6, "difficulty": 6 }
+    },
+    {
+      "id": 3,
+      "name": "Hayate",
+      "fighting_style": "Mugen Tenshin Ninja Arts",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/hayate.png",
+      "stats": { "power": 7, "speed": 8, "range": 6, "difficulty": 5 }
+    },
+    {
+      "id": 4,
+      "name": "Ryu Hayabusa",
+      "fighting_style": "Hayabusa Ninja Arts",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/ryu_hayabusa.png",
+      "stats": { "power": 8, "speed": 7, "range": 6, "difficulty": 7 }
+    },
+    {
+      "id": 5,
+      "name": "Helena Douglas",
+      "fighting_style": "Bajiquan",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/helena_douglas.png",
+      "stats": { "power": 7, "speed": 6, "range": 7, "difficulty": 6 }
+    },
+    {
+      "id": 6,
+      "name": "Hitomi",
+      "fighting_style": "Karate",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/hitomi.png",
+      "stats": { "power": 8, "speed": 6, "range": 5, "difficulty": 4 }
+    },
+    {
+      "id": 7,
+      "name": "Leifang",
+      "fighting_style": "Tai Chi Quan",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/leifang.png",
+      "stats": { "power": 5, "speed": 7, "range": 6, "difficulty": 6 }
+    },
+    {
+      "id": 8,
+      "name": "Tina Armstrong",
+      "fighting_style": "Pro Wrestling",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/tina_armstrong.png",
+      "stats": { "power": 9, "speed": 5, "range": 6, "difficulty": 5 }
+    },
+    {
+      "id": 9,
+      "name": "Bass Armstrong",
+      "fighting_style": "Pro Wrestling",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/bass_armstrong.png",
+      "stats": { "power": 10, "speed": 3, "range": 6, "difficulty": 7 }
+    },
+    {
+      "id": 10,
+      "name": "Zack",
+      "fighting_style": "Muay Thai",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/zack.png",
+      "stats": { "power": 6, "speed": 7, "range": 5, "difficulty": 5 }
+    },
+    {
+      "id": 11,
+      "name": "Brad Wong",
+      "fighting_style": "Drunken Fist",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/brad_wong.png",
+      "stats": { "power": 6, "speed": 6, "range": 5, "difficulty": 8 }
+    },
+    {
+      "id": 12,
+      "name": "Eliot",
+      "fighting_style": "Xing Yi Quan",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/eliot.png",
+      "stats": { "power": 6, "speed": 6, "range": 5, "difficulty": 4 }
+    },
+    {
+      "id": 13,
+      "name": "Kokoro",
+      "fighting_style": "Bajiquan",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/kokoro.png",
+      "stats": { "power": 6, "speed": 6, "range": 6, "difficulty": 5 }
+    },
+    {
+      "id": 14,
+      "name": "La Mariposa",
+      "fighting_style": "Lucha Libre",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/la_mariposa.png",
+      "stats": { "power": 7, "speed": 7, "range": 6, "difficulty": 6 }
+    },
+    {
+      "id": 15,
+      "name": "Bayman",
+      "fighting_style": "Sambo",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/bayman.png",
+      "stats": { "power": 8, "speed": 4, "range": 5, "difficulty": 7 }
+    },
+    {
+      "id": 16,
+      "name": "Christie",
+      "fighting_style": "Snake Fist Kung Fu",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/christie.png",
+      "stats": { "power": 6, "speed": 8, "range": 6, "difficulty": 6 }
+    },
+    {
+      "id": 17,
+      "name": "Jann Lee",
+      "fighting_style": "Jeet Kune Do",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/jann_lee.png",
+      "stats": { "power": 9, "speed": 6, "range": 5, "difficulty": 5 }
+    },
+    {
+      "id": 18,
+      "name": "Rig",
+      "fighting_style": "Taekwondo",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/rig.png",
+      "stats": { "power": 7, "speed": 7, "range": 6, "difficulty": 6 }
+    },
+    {
+      "id": 19,
+      "name": "Mila",
+      "fighting_style": "MMA",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/mila.png",
+      "stats": { "power": 8, "speed": 6, "range": 5, "difficulty": 6 }
+    },
+    {
+      "id": 20,
+      "name": "Alpha-152",
+      "fighting_style": "Advanced Mugen Tenshin",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/alpha_152.png",
+      "stats": { "power": 7, "speed": 8, "range": 7, "difficulty": 9 }
+    },
+    {
+      "id": 21,
+      "name": "Lisa Hamilton",
+      "fighting_style": "Lucha Libre",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/lisa_hamilton.png",
+      "stats": { "power": 7, "speed": 7, "range": 6, "difficulty": 6 }
+    },
+    {
+      "id": 22,
+      "name": "Gen Fu",
+      "fighting_style": "Xing Yi Quan",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/gen_fu.png",
+      "stats": { "power": 8, "speed": 5, "range": 6, "difficulty": 6 }
+    },
+    {
+      "id": 23,
+      "name": "Pai Chan",
+      "fighting_style": "Baguazhang",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/pai_chan.png",
+      "stats": { "power": 6, "speed": 7, "range": 6, "difficulty": 5 }
+    },
+    {
+      "id": 24,
+      "name": "Marie Rose",
+      "fighting_style": "Systema",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/marie_rose.png",
+      "stats": { "power": 5, "speed": 9, "range": 4, "difficulty": 5 }
+    },
+    {
+      "id": 25,
+      "name": "Phase-4",
+      "fighting_style": "Advanced Mugen Tenshin",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/phase_4.png",
+      "stats": { "power": 7, "speed": 9, "range": 6, "difficulty": 8 }
+    },
+    {
+      "id": 26,
+      "name": "Nyotengu",
+      "fighting_style": "Tengu Arts",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/nyotengu.png",
+      "stats": { "power": 8, "speed": 6, "range": 7, "difficulty": 6 }
+    },
+    {
+      "id": 27,
+      "name": "Honoka",
+      "fighting_style": "Mimic",
+      "image": "https://raw.githubusercontent.com/Pelwez/doa-readonly-api/main/images/honoka.png",
+      "stats": { "power": 7, "speed": 6, "range": 6, "difficulty": 8 }
+    }
   ]
 }
